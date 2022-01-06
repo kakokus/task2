@@ -29,7 +29,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-    
+        ///
+        print(NSLocale(localeIdentifier: "en_UK").displayName(forKey: NSLocale.Key.identifier, value: NSLocale.localeIdentifier(fromComponents: [NSLocale.Key.countryCode.rawValue: "AU"])) ?? "Not found: \("AU")")
+        
+        print(NSLocale.isoCountryCodes)
+        ///
+        
         for code in NSLocale.isoCountryCodes {
             let id = NSLocale.localeIdentifier(fromComponents: [NSLocale.Key.countryCode.rawValue: code])
             let name = NSLocale(localeIdentifier: "en_UK").displayName(forKey: NSLocale.Key.identifier, value: id) ?? "Not found: \(code)"
@@ -57,6 +62,4 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
    
     
-    
 }
-

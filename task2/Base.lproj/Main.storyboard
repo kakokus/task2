@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Dw2-NH-aTM">
-                                <rect key="frame" x="10" y="49" width="394" height="822"/>
+                                <rect key="frame" x="0.0" y="49" width="414" height="832"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="Fzz-2D-hgx"/>
@@ -27,10 +27,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Dw2-NH-aTM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="DuG-hV-0hn"/>
-                            <constraint firstAttribute="bottom" secondItem="Dw2-NH-aTM" secondAttribute="bottom" constant="25" id="W7j-hB-hCq"/>
+                            <constraint firstItem="Dw2-NH-aTM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DuG-hV-0hn"/>
+                            <constraint firstAttribute="bottom" secondItem="Dw2-NH-aTM" secondAttribute="bottom" constant="15" id="W7j-hB-hCq"/>
                             <constraint firstItem="Dw2-NH-aTM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="kpr-R0-Nvs"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dw2-NH-aTM" secondAttribute="trailing" constant="10" id="nf7-jI-4uE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dw2-NH-aTM" secondAttribute="trailing" id="nf7-jI-4uE"/>
                         </constraints>
                     </view>
                     <connections>
